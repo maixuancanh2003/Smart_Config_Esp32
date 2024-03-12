@@ -1,0 +1,39 @@
+{
+"C_Cpp.updateChannel": "Insiders",
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+"cmake.configureOnOpen": false,
+"security.workspace.trust.untrustedFiles": "open",
+"grunt.autoDetect": "on",
+"terminal.explorerkind": "external",
+"terminal.integrated.allowMnemonics": true,
+"terminal.integrated.defaultProfile.windows": "Command Prompt",
+"terminal.integrated.profiles.windows": {
+    "PowerShell": {
+    "source": "PowerShell",
+    "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+    "path": [
+    "${env:windir}\\Sysnative\\cmd.exe",
+    "${env:windir}\\System32\\cmd.exe"
+    ],
+    "args":[
+    "/k",
+    "C:/Espressif/idf_cmd_init.bat esp-idf-14f358ccce7481b8f449580430665fab"
+    ],
+    "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+    "source": "Git Bash"
+    }
+    },
+    "files.associations": {
+        "inttypes.h": "c",
+        "sdkconfig.h": "c",
+        "stdio.h": "c",
+        "esp_flash.h": "c",
+        "task.h": "c",
+        "esp_chip_info.h": "c"
+    }
+
+}
